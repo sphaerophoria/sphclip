@@ -1,0 +1,16 @@
+.{
+    .name = "sphclip",
+    .minimum_zig_version = "0.13.0",
+    .version = "0.0.1",
+    .dependencies = .{
+    	.sphwayland = .{
+		.url = "https://github.com/sphaerophoria/sphwayland-client/archive/4b93a695bffdf2e5446c3710ddc39a666e31bdcc.tar.gz",
+		.hash = "1220ae1af54a1909ac70139df4d78d767a21aa701b602f632aae20c790e1a890a699",
+	},
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
